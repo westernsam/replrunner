@@ -3,7 +3,7 @@ Fixture to test repl style application in java, using just OutputStream and Inpu
 
 ## Echo Example
 
-```
+```java
 import java.io.*;
 
 public class Echo implements Runnable {
