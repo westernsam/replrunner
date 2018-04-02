@@ -1,6 +1,14 @@
 # Repl Runner
 Fixture to test repl style application in java, using just OutputStream and InputStream to drive the application.
 
+## Installation
+See https://jitpack.io/#westernsam/replrunner/v0.0.1. For example, sbt would be:
+
+```sbt
+resolvers += "jitpack" at "https://jitpack.io"
+libraryDependencies += "com.github.westernsam" % "replrunner" % "v0.0.1" % "test"
+```
+
 ## Echo Example
 
 ```java
